@@ -10,16 +10,14 @@ public class QuickSort {
         int pivot = A[lb];
 
         while(start<end){
-            while(pivot>A[start]){
+            while(A[start]<=pivot && start<end){
                 start++;
             }
-            while(pivot<A[end]){
+            while(A[end]>=pivot && start<end){
                 end--;
             }
             if(end>start){
                 swap(start, end, A);
-                start++;
-                end--;
             }
         }
         swap(lb, end, A);

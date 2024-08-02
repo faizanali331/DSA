@@ -25,12 +25,17 @@ public class TestAlgo {
         CountingSort cs = new CountingSort();
         cs.Sort(A, 93);
         for(Integer x: A)
-            System.out.println(x);*/
+            System.out.println(x);
 
         RadixSort rs = new RadixSort();
         rs.rSort(A);
         for(Integer x: A)
             System.out.print(x+" ");
+        */
 
+        QuickSort qs = new QuickSort();
+        qs.qSort(0, A.length-1, A);
+        for(Integer x: A)
+            System.out.print(x+" ");
     }
 }
