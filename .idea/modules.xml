@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/divide_and_conquer/Divide_and_conquer.iml" filepath="$PROJECT_DIR$/divide_and_conquer/Divide_and_conquer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greedyAlgo/greedyAlgo.iml" filepath="$PROJECT_DIR$/greedyAlgo/greedyAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heap/heap.iml" filepath="$PROJECT_DIR$/heap/heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+    </modules>
+  </component>
+</project>

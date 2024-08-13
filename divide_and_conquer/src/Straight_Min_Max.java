@@ -21,6 +21,5 @@ public class Straight_Min_Max {
         a.max=max;
 
         return a;
-
     }
 }

@@ -9,6 +9,7 @@ public class QuickSort {
         int end = ub;
         int pivot = A[lb];
 
+
         while(start<end){
             while(A[start]<=pivot && start<end){
                 start++;
@@ -20,14 +21,16 @@ public class QuickSort {
                 swap(start, end, A);
             }
         }
-        swap(lb, end, A);
-        return end;
+        swap(lb, start, A);
+        return start;
     }
     public void qSort(int lb, int ub, int []A){
-        if(lb<ub) {
+        if(lb>=ub){
+            return ;
+        }
             int loc = partician(lb, ub, A);
             qSort(lb, loc - 1, A);
             qSort(loc + 1, ub, A);
-        }
+
     }
 }
